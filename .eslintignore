@@ -1,0 +1,9 @@
+node_modules/*
+build/*
+dist/*
+assets/*
+static
+/.git
+/.vscode
+.nuxt
+.idea

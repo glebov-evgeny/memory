@@ -1,0 +1,48 @@
+@import '@/assets/styles/tools/mixins';
+.select {
+  position: relative;
+  &__toggle {
+    display: flex;
+    align-items: center;
+    min-height: rem(45);
+    padding: rem(12);
+    background: var(--color-white);
+    border: rem(2) solid var(--color-black);
+    border-radius: var(--border-radius-sm);
+    cursor: pointer;
+  }
+  &__list {
+    position: absolute;
+    z-index: 1;
+    top: rem(50);
+    left: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    background: var(--color-white);
+    border-radius: var(--border-radius-sm);
+    transition: 0.2s;
+    &._active {
+      overflow-y: auto;
+      height: rem(62);
+      box-shadow: 0 2px 5px 2px var(--color-black);
+      &._nominal {
+        height: rem(124);
+      }
+    }
+    &-option {
+      padding: rem(8) rem(12);
+      font-size: rem(14);
+      font-weight: 600;
+      cursor: pointer;
+      transition: 0.2s;
+      &:hover {
+        background: var(--color-yellow);
+      }
+    }
+  }
+  &__current {
+    font-size: rem(14);
+    font-weight: 600;
+  }
+}

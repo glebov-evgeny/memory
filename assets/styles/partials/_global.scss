@@ -1,0 +1,77 @@
+@use '~assets/styles/tools/mixins' as *;
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  min-height: 100vh;
+  color: var(--color-black);
+  background-color: var(--color-white);
+  font-family: 'Montserrat', serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-white);
+  border-radius: rem(4);
+}
+
+::-webkit-scrollbar {
+  width: rem(8);
+}
+
+#__nuxt,
+#__layout,
+#__layout > div:only-child {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: stretch;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: rem(48) 0;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: rem(1440);
+  margin: 0 auto;
+  padding: 0 rem(15);
+  @media all and (min-width: 992px) {
+    padding: 0 rem(30);
+  }
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}

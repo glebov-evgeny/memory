@@ -1,0 +1,9 @@
+@import '@/assets/styles/tools/mixins';
+
+.s_test {
+
+  &__title{
+    font-size: rem(18);
+    text-align: center;
+  }
+}
