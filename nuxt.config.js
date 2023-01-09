@@ -6,7 +6,7 @@ export default {
   target: 'static',
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Memory',
+    title: 'memory',
     htmlAttrs: {
       lang: 'ru',
     },
@@ -94,7 +94,6 @@ export default {
     },
   },
   loading: '~/components/_ui/a_loader/a_loader',
-
   build: {
     transpile: ['gsap'],
   },
