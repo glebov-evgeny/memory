@@ -90,6 +90,7 @@ export default {
   },
   pwa: {
     manifest: {
+      name: 'memory',
       lang: 'ru',
     },
   },
