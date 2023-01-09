@@ -1,10 +1,7 @@
 <template>
-  <div class="wrapper">
-    <main class="main">
-      <SStart v-if="showStartBtn" @btnClickStart="btnClickStart"/>
-      <STest v-if="showStartBtn === false"/>
-    </main>
-  </div>
+  <main class="main">
+    <SStart @btnClickStart="btnClickStart" />
+  </main>
 </template>
 
 <script>
@@ -16,22 +13,14 @@ export default {
   name: 'pagemain',
   components: {},
   data() {
-    return {
-      showStartBtn: true,
-      // btnLabel: 'старт',
-      // btnClass: '_marginTop',
-    };
+    return {};
   },
-  mounted() {
-  },
+  mounted() {},
 
-  watch: {
-
-  },
+  watch: {},
   methods: {
     btnClickStart() {
-      this.showStartBtn = false;
-      console.log('клик');
+      this.$router.push('/test');
     },
   },
   computed: {},

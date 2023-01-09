@@ -1,16 +1,15 @@
 <template>
   <div class="s_test">
     <div class="container s_test__container">
-      <h1 class="s_test__title">Переведите:</h1>
-      <ACard/>
+      <h1 class="s_test__title">CCC:</h1>
+      <ACard />
     </div>
   </div>
 </template>
 
 <script>
-
 import './s_test.scss';
-import ACard from '@/components/_ui/a_card/a_card.vue';
+import ACard from '@/components/_ui/a_card/a_card';
 
 export default {
   name: 's_test',
