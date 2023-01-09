@@ -58,8 +58,8 @@ export default {
     '@nuxtjs/robots',
     ['cookie-universal-nuxt', { parseJSON: false }],
     // '@nuxtjs/auth-next',
-    '@nuxtjs/i18n',
-    '@nuxtjs/toast',
+    // '@nuxtjs/i18n',
+    // '@nuxtjs/toast',
     // https://github.com/nuxt-community/gtm-module
     // '@nuxtjs/gtm',
     // https://www.npmjs.com/package/nuxt-facebook-pixel-module
@@ -95,7 +95,7 @@ export default {
   },
   loading: '~/components/_ui/a_loader/a_loader',
   build: {
-    transpile: ['gsap'],
+    // transpile: ['gsap'],
   },
 
   env: {
