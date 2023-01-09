@@ -27,7 +27,7 @@ export default {
     ],
   },
   router: {
-    base: '/',
+    base: '/memory',
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ['./assets/styles/main.scss', 'swiper/css/swiper.min.css'],
