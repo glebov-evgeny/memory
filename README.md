@@ -1,5 +1,6 @@
+<!--
 # This project was created for testing
-
+ 
 https://switch-store.shop/
 
 1) Nuxt/Vue
@@ -8,5 +9,5 @@ https://switch-store.shop/
 4) Github pages for deploy environments
 5) For sending letters - EmailJS
 6) For translation - i18n
-
+-->
 
