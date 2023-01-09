@@ -4,7 +4,7 @@ export default {
   debug: true,
   ssr: true,
   target: 'static',
-  // Global page headers: https://go.nuxtjs.dev/config-head
+
   head: {
     title: 'memory',
     htmlAttrs: {
