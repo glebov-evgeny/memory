@@ -1,6 +1,8 @@
 <template>
-  <main class="main">
-    <STest />
+  <main class="test">
+    <div class="container">
+      <STest />
+    </div>
   </main>
 </template>
 

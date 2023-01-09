@@ -1,7 +1,6 @@
 <template>
   <main class="admin">
     <div class="container">
-      <h2>...</h2>
       <SFormUpdate />
     </div>
   </main>

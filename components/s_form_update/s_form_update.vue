@@ -24,9 +24,6 @@ export default {
     };
   },
   methods: {
-    startTest() {
-      // this.$emit('startTest');
-    },
     async addCard() {
       const db = getFirestore();
       await setDoc(doc(db, 'words', `${this.cards.length + 1}`), {

@@ -5,10 +5,6 @@
 </template>
 
 <script>
-// import {
-//   getFirestore, setDoc, doc, collection, onSnapshot, query, where, deleteDoc,
-// } from 'firebase/firestore';
-
 export default {
   name: 'pagemain',
   components: {},
