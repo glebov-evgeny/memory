@@ -1,10 +1,10 @@
 <template>
   <div class="s_test">
-    <div v-if="questionIndex === cards.length">
+    <div class="s_test-cards" v-if="questionIndex === cards.length">
       <p class="s_test-final">тест закончился</p>
       <button class="s_test-item-button" @click="startTest">начать сначала</button>
     </div>
-    <div v-else>
+    <div class="s_test-cards" v-else>
       <div :class="['s_test-card', `s_test-card-${item.id}`]" v-for="item in cards" :key="item.id">
         <div class="s_test-item" v-if="item.id === questionIndex">
           <div class="s_test-item-content" v-if="isIncorrect">
@@ -17,7 +17,7 @@
             </button>
           </div>
           <div class="s_test-item-content" v-else>
-            <p class="s_test-item-description">Правильный ответ:</p>
+            <p class="s_test-item-description">правильный ответ:</p>
             <p class="s_test-item-title">{{ item.translate }}</p>
             <button class="s_test-item-button" @click="nextCardShow">дальше</button>
           </div>

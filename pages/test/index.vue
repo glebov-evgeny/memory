@@ -1,6 +1,6 @@
 <template>
-  <main class="test">
-    <div class="container">
+  <main class="main test">
+    <div class="container test__container">
       <STest />
     </div>
   </main>

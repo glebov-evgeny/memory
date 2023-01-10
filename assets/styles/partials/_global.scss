@@ -52,6 +52,14 @@ a {
   padding: rem(48) 0;
 }
 
+.test__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
