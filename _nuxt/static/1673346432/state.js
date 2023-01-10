@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fmemory\u002F_nuxt\u002Fstatic\u002F1673346432",layout:"default",error:a,state:{token:a},serverRendered:true,routePath:"\u002F",config:{SITE_URL:"http:\u002F\u002Flocalhost",_app:{basePath:"\u002Fmemory\u002F",assetsPath:"\u002Fmemory\u002F_nuxt\u002F",cdnURL:a}}}}(null));
